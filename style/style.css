@@ -9,6 +9,7 @@ ul li{
 
 .nav{
     display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,6 +18,7 @@ ul li{
 }
 .nav_list{
     display: flex;
+    
     padding: 0;
     margin: 0;
 }
@@ -56,15 +58,15 @@ ul li{
 .container_project {
     margin: auto;
     background-color: blueviolet;
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .container_project div{
-    height: 400px;
-    width: 400px;
+    min-height: 200px;
+    min-width: 200px;
     background-color: aqua;
-    margin: 25px;
+    margin: 40px;
 }
